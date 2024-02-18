@@ -1,9 +1,12 @@
 
-
+           
+ 
+package bookcheckout;
 import java.util.Scanner;
 
-public class BookCheck {
+public class BookCheckOut {
     int n_books;
+ 
   
    public static void main(String[] args) {
        
@@ -16,25 +19,19 @@ public class BookCheck {
        
            
            if(n_books<=3){
+               
                for(int i=1;i<=n_books;i++){
-       
-              System.out.println("Enter name of Book" +i);
+                  
+          System.out.println("Enter name of Book" +i);
           book_name=b.nextLine();
-       }
-         }      
-               else{
-       
-           System.out.println("Maxmum number of book is 3");
-           
-       }
-           
-           for(int i=1;i<=3;i++){
-              if (i==1){
-      System.out.println("name of book "+i+" is: "+book_name);
-      }
+      
+           }}
+           else{
+                       
+                    System.out.println("Maxmum number of book is 3");  
+                       }
+               
            }
-           
-           
-       }
-      }
+   }
+      
    
